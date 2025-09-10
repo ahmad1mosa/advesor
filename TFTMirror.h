@@ -4,6 +4,7 @@
 #include <SPI.h>
 #include <Adafruit_ST7789.h>
 #include <Adafruit_SSD1306.h>
+#include <limits.h>
 
 // Simple mirroring helper to copy Adafruit_SSD1306 1bpp buffer to an Adafruit_ST7789 TFT
 // without changing existing OLED drawing code. Call flush() whenever you would have
